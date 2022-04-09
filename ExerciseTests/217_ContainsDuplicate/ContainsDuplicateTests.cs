@@ -1,13 +1,13 @@
 //Given an integer array nums, return true if any value appears at least twice
 // in the array, and return false if every element is distinct.
 
-using Exercises._217.ContainsDuplicate;
+using Exercises._217_ContainsDuplicate;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ExerciseTests._217.ContainsDuplicate
+namespace ExerciseTests._217_ContainsDuplicate
 {
     [TestClass]
-    public class SolutionTest
+    public class ContainsDuplicateTest
     {
         [DataTestMethod]
         [DataRow(new []{1,1,1,3,3,4,3,2,4,2})]
@@ -19,7 +19,7 @@ namespace ExerciseTests._217.ContainsDuplicate
             int[] testArr = arrayToCheck;
 
             // Act
-            bool containsDup = Solution.ContainsDuplicateNumbers(testArr);
+            bool containsDup = ContainsDuplicate.ContainsDuplicateNumbers(testArr);
 
             // Assert
             Assert.AreEqual(true, containsDup);
@@ -36,7 +36,7 @@ namespace ExerciseTests._217.ContainsDuplicate
             int[] testArr = arrayToCheck;
 
             // Act
-            bool containsDup = Solution.ContainsDuplicateNumbers(testArr);
+            bool containsDup = ContainsDuplicate.ContainsDuplicateNumbers(testArr);
 
             // Assert
             Assert.AreEqual(false, containsDup);

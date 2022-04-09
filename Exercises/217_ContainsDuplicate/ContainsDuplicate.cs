@@ -1,8 +1,8 @@
 using System;
 
-namespace Exercises._217.ContainsDuplicate
+namespace Exercises._217_ContainsDuplicate
 {
-    public class Solution 
+    public class ContainsDuplicate 
     {
         public static bool ContainsDuplicateNumbers(int[] nums) {
 
